@@ -82,8 +82,8 @@
     <div class="shape-mockup jump-reverse-img d-none d-xxl-block" data-top="22%" data-left="-7%">
         <div class="curb-shape1"></div>
     </div>
-    <div class="shape-mockup jump-img d-none d-xxxl-block" data-top="17%" data-right="13%"><img
-            src="assets/img/shape/leaf-1-4.png" alt="shape"></div>
+    <!-- <div class="shape-mockup jump-img d-none d-xxxl-block" data-top="17%" data-right="13%"><img
+            src="assets/img/shape/leaf-1-4.png" alt="shape"></div> -->
     <div class="container">
         <div class="row gx-55">
             <div class="col-lg-4 col-xxl-auto align-self-center wow fadeInUp" data-wow-delay="0.2s">
@@ -110,9 +110,9 @@
                 </div>
             </div>
             <div class="col-lg-8 col-xxl align-self-center wow fadeInUp" data-wow-delay="0.3s"><span
-                    class="sec-subtitle">Experience Wellnez <span class="sec-subtext">25 Years</span></span>
+                    class="sec-subtitle">Experience SaniaMalik <span class="sec-subtext">25 Years</span></span>
                 <h2 class="sec-title2">About <span class="text-theme">Us</span></h2>
-                <p class="quote-text">We think your skin should look and refshed matter your lifestyle Wellnez.</p>
+                <!-- <p class="quote-text">We think your skin should look and refshed matter your lifestyle Wellnez.</p> -->
                 <div class="row gx-25">
                     <div class="col-md-6">
                         <div class="feature-style1">
@@ -120,7 +120,7 @@
                             <h3 class="feature-title h5"><a class="text-inherit" href="services-details">Our Story</a></h3>
                             <div class="arrow-shape"><i class="arrow"></i><i class="arrow"></i><i
                                     class="arrow"></i><i class="arrow"></i></div>
-                            <p class="feature-text">Elevating the essence of luxury in Lucknow, Sania Malik Unisex Salon, a certified makeup artist, weaves a narrative of passion and proficiency. Her journey, marked by exceptional skills, centers on bringing out the unique beauty of every client. Specializing in bridal transformations, Sania uses high-quality products, ensuring perfection for special occasions and creating memorable, stress-free experiences.</p>
+                            <p class="feature-text">Elevating the essence of luxury in Lucknow, Sania Malik Unisex Salon, a certified makeup artist, weaves a narrative of passion and proficiency. </p>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -129,8 +129,10 @@
                             <h3 class="feature-title h5"><a class="text-inherit" href="services-details">Our Vision</a></h3>
                             <div class="arrow-shape"><i class="arrow"></i><i class="arrow"></i><i
                                     class="arrow"></i><i class="arrow"></i></div>
-                            <p class="feature-text">Our vision transcends conventional beauty. We aspire to be the pinnacle of luxury, offering unparalleled makeup services and professional training through our Makeup Academy. With a commitment to excellence, we envision becoming the go-to destination for transformative experiences, ensuring every client feels radiant and confident, embracing their individuality through our makeup, skincare.</p>
+                            <p class="feature-text">Our vision transcends conventional beauty. We aspire to be the pinnacle of luxury, offering unparalleled makeup services and professional training through our Makeup Academy. </p>
                         </div>
+                    </div>
+                    <div class="package-btn text-center"><a href="{{'/about'}}" class="vs-btn style3">About Us</a>
                     </div>
                 </div>
             </div>
@@ -212,7 +214,7 @@
 <section class="space-top space-extra-bottom outer-wrap1 pt-20">
     <div class="container">
         <div class="title-area text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible;"><span class="sec-subtitle">Gallery</span>
-            <h2 class="sec-title">Latest Project</h2>
+            <h2 class="sec-title">Our Gallery</h2>
             <div class="sec-shape"><img src="assets/img/shape/sec-shape-1.png" alt="shape"></div>
         </div>
     </div>
@@ -317,7 +319,7 @@
         </div>
     </div>
     <div class="col-12 text-center mt-30 pt-lg-3">
-        <a href="/gallery" class="vs-btn style12">View More
+        <a href="/gallery" class="vs-btn style12">View More Gallery
             <i class="ps-2 pe-0 far fa-arrow-right"></i>
         </a>
     </div>
@@ -328,14 +330,14 @@
             src="assets/img/shape/b-s-1-1.png" alt="shape"></div>
     <div class="shape-mockup jump-reverse-img d-none d-xl-block" data-left="0" data-bottom="-13%"><img
             src="assets/img/shape/b-s-1-2.png" alt="shape"></div> -->
-     <div class="container">
+    <div class="container">
         <div class="row gx-0">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
                 <form action="#" class="form-style7">
                     <div class="media-style6">
                         <div class="media-icon"><i class="fal fa-calendar-alt"></i></div>
                         <div class="media-bod"><span class="media-label">Take support at any time</span>
-                            <p class="media-title">Send Message</p>
+                            <p class="media-title">Book An Appointment</p>
                         </div>
                     </div>
                     <div class="row">
@@ -345,11 +347,10 @@
                         <div class="form-group col-md-6"><input type="number" placeholder="Phone Number"></div>
                         <div class="form-group col-12"><select>
                                 <option disabled="disabled" hidden selected="selected">Select Subject</option>
-                                <option>Sports Massage</option>
-                                <option>Stone Massage</option>
-                                <option>Head Massage</option>
-                                <option>Head Massage</option>
-                                <option>Facial &amp; Massage</option>
+                                <option>Makeup Services</option>
+                                <option>Hair Services</option>
+                                <option>Nail Services</option>
+                                <option>Other Services</option>
                             </select></div>
                         <div class="form-group col-12"><textarea placeholder="Write your message"></textarea></div>
                         <div class="form-btn col-12"><button class="vs-btn" type="submit">Make Appointment</button>
@@ -372,75 +373,75 @@
         </div>
     </div>
 </section>
-  <section class="space-top space-extra-bottom bg-light">
-       
-        <div class="container">
-            <div class="row justify-content-center text-center">
-                <div class="col-md-9 col-lg-7 col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="title-area">
-                        <h2 class="sec-title4">Client's Review</h2>
-                        <p class="sec-text">Access to our fitness centre and pool is free to all our hotel guests. For
-                            non guests membership packages are available.</p>
+<section class="space-top space-extra-bottom bg-light">
+
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-md-9 col-lg-7 col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="title-area">
+                    <h2 class="sec-title4">Client's Review</h2>
+                    <p class="sec-text">Access to our fitness centre and pool is free to all our hotel guests. For
+                        non guests membership packages are available.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row vs-carousel wow fadeInUp" data-wow-delay="0.2s" data-slide-show="3" data-lg-slide-show="2"
+            data-center-mode="true" data-xl-center-mode="true" data-ml-center-mode="true"
+            data-lg-center-mode="true">
+            <div class="col-lg-4">
+                <div class="testi-style3"><span class="testi-icon"><i class="fas fa-quote-right"></i></span>
+                    <div class="testi-avater"><img src="assets/img/testi/testi-auth-3-1.png"
+                            alt="Testimonial Author"></div>
+                    <div class="testi-content">
+                        <div class="testi-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p class="testi-text">Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Omnis, totam
+                            molestias. Dolores voluptates quisquam dignis simos cum temporibus, ad la.</p>
+                        <h3 class="testi-name">Joanna Wang</h3><span class="testi-degi">Business Man</span>
                     </div>
                 </div>
             </div>
-            <div class="row vs-carousel wow fadeInUp" data-wow-delay="0.2s" data-slide-show="3" data-lg-slide-show="2"
-                data-center-mode="true" data-xl-center-mode="true" data-ml-center-mode="true"
-                data-lg-center-mode="true">
-                <div class="col-lg-4">
-                    <div class="testi-style3"><span class="testi-icon"><i class="fas fa-quote-right"></i></span>
-                        <div class="testi-avater"><img src="assets/img/testi/testi-auth-3-1.png"
-                                alt="Testimonial Author"></div>
-                        <div class="testi-content">
-                            <div class="testi-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                            <p class="testi-text">Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Omnis, totam
-                                molestias. Dolores voluptates quisquam dignis simos cum temporibus, ad la.</p>
-                            <h3 class="testi-name">Joanna Wang</h3><span class="testi-degi">Business Man</span>
-                        </div>
+            <div class="col-lg-4">
+                <div class="testi-style3"><span class="testi-icon"><i class="fas fa-quote-right"></i></span>
+                    <div class="testi-avater"><img src="assets/img/testi/testi-auth-3-2.png"
+                            alt="Testimonial Author"></div>
+                    <div class="testi-content">
+                        <div class="testi-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p class="testi-text">Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Omnis, totam
+                            molestias. Dolores voluptates quisquam dignis simos cum temporibus, ad la.</p>
+                        <h3 class="testi-name">Vivi Marian</h3><span class="testi-degi">Customer</span>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="testi-style3"><span class="testi-icon"><i class="fas fa-quote-right"></i></span>
-                        <div class="testi-avater"><img src="assets/img/testi/testi-auth-3-2.png"
-                                alt="Testimonial Author"></div>
-                        <div class="testi-content">
-                            <div class="testi-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                            <p class="testi-text">Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Omnis, totam
-                                molestias. Dolores voluptates quisquam dignis simos cum temporibus, ad la.</p>
-                            <h3 class="testi-name">Vivi Marian</h3><span class="testi-degi">Customer</span>
-                        </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="testi-style3"><span class="testi-icon"><i class="fas fa-quote-right"></i></span>
+                    <div class="testi-avater"><img src="assets/img/testi/testi-auth-3-3.png"
+                            alt="Testimonial Author"></div>
+                    <div class="testi-content">
+                        <div class="testi-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p class="testi-text">Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Omnis, totam
+                            molestias. Dolores voluptates quisquam dignis simos cum temporibus, ad la.</p>
+                        <h3 class="testi-name">Rosero Deo</h3><span class="testi-degi">Manager</span>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="testi-style3"><span class="testi-icon"><i class="fas fa-quote-right"></i></span>
-                        <div class="testi-avater"><img src="assets/img/testi/testi-auth-3-3.png"
-                                alt="Testimonial Author"></div>
-                        <div class="testi-content">
-                            <div class="testi-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                            <p class="testi-text">Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Omnis, totam
-                                molestias. Dolores voluptates quisquam dignis simos cum temporibus, ad la.</p>
-                            <h3 class="testi-name">Rosero Deo</h3><span class="testi-degi">Manager</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="testi-style3"><span class="testi-icon"><i class="fas fa-quote-right"></i></span>
-                        <div class="testi-avater"><img src="assets/img/testi/testi-auth-3-3.png"
-                                alt="Testimonial Author"></div>
-                        <div class="testi-content">
-                            <div class="testi-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                            <p class="testi-text">Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Omnis, totam
-                                molestias. Dolores voluptates quisquam dignis simos cum temporibus, ad la.</p>
-                            <h3 class="testi-name">Tara Redsing</h3><span class="testi-degi">Film Actor</span>
-                        </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="testi-style3"><span class="testi-icon"><i class="fas fa-quote-right"></i></span>
+                    <div class="testi-avater"><img src="assets/img/testi/testi-auth-3-3.png"
+                            alt="Testimonial Author"></div>
+                    <div class="testi-content">
+                        <div class="testi-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p class="testi-text">Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Omnis, totam
+                            molestias. Dolores voluptates quisquam dignis simos cum temporibus, ad la.</p>
+                        <h3 class="testi-name">Tara Redsing</h3><span class="testi-degi">Film Actor</span>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
 @endsection

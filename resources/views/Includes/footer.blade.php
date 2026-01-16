@@ -22,9 +22,9 @@
                                 <ul class="menu">
                                     <li><a href="{{url('/')}}">Home</a></li>
                                     <li><a href="{{url('/about')}}">ABOUT US</a></li>
-                                    <li><a href="{{url('/services')}}">Services</a></li>
+                                    <!-- <li><a href="{{url('/services')}}">Services</a></li> -->
                                     <li><a href="{{url('/academy')}}">Academy</a></li>
-                                    <li><a href="{{url('/gallery')}}">Gallery</a></li>
+                                    <li><a href="{{url('/portfolio')}}">Portfolio</a></li>
                                     <li><a href="{{url('/contact')}}">Contact Us</a></li>
                                 </ul>
                             </div>

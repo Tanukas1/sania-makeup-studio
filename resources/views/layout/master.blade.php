@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="assets/css/app.min.css">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    @yield('css')
 </head>
 
 <body>

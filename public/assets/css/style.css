@@ -17,7 +17,7 @@
     --icon-font: "Font Awesome 5 Pro";
     --main-container: 1270px;
     --container-gutters: 30px;
-    --section-space: 120px;
+    --section-space: 70px;
     --section-space-mobile: 80px;
     --section-title-space: 60px;
     --ripple-ani-duration: 5s
@@ -5004,7 +5004,8 @@ a.text-theme:hover,
     position: relative;
     background-color: var(--smoke-color);
     background-size: 100% auto;
-    background-position: top center
+    background-position: top center;
+    margin-top: 75px;
 }
 
 @media(min-width: 1922px) {
@@ -8669,7 +8670,7 @@ blockquote.vs-quote cite:before {
 
 .contact-map iframe {
     width: 100%;
-    height: 404px
+    height: 700px
 }
 
 .contact-table {

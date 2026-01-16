@@ -95,15 +95,15 @@
                                     <nav class="main-menu menu-style1 d-none d-lg-block">
                                         <ul>
                                             <li><a href="/about">About Us</a></li>
-                                            <li class="menu-item-has-children"><a href="/services">Service</a>
+                                            <li class="menu-item-has-children"><a href="">Service</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="/services">Services</a></li>
-                                                    <li><a href="/services-details">Service Details</a></li>
+                                                    <li><a href="/makeup-service">Makeup Services</a></li>
+                                                    <li><a href="/salon-service">Salon Service</a></li>
+                                                    <li><a href="/man-service">Man Service</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="/academy">Academy</a></li>
-                                            <li><a href="/gallery">Gallery</a></li>
-                                           
+                                            <li><a href="/portfolio">Portfolio</a></li>
                                             <li><a href="/contact">Contact Us</a></li>
                                         </ul>
                                     </nav>

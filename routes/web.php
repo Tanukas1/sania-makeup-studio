@@ -10,6 +10,8 @@ Route::view('/about', 'pages.about');
 Route::view('/services', 'pages.services');
 Route::view('/services-details', 'pages.services-details');
 Route::view('/academy', 'pages.academy');
-Route::view('/gallery', 'pages.gallery');
+Route::view('/portfolio', 'pages.portfolio');
 Route::view('/contact', 'pages.contact');
-
+Route::view('/makeup-service', 'pages.makeup-service');
+Route::view('/salon-service', 'pages.salon-service');
+Route::view('/man-service', 'pages.man-service');
