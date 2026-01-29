@@ -66,17 +66,27 @@
                         <i class="fal fa-headset text-theme"></i>
                     </div>
                     <h6>Visit Our Place</h6>
-                    <p>Central Park West LA87, New York</p>
+                    <p>R Square Building, Opp. SRS City Mall, Vipul Khand 5, Gomti Nagar, Lucknow</p>
                 </div>
             </div>
             <!-- Time -->
+            <!--<div class="col-md-4">-->
+            <!--    <div class="contact-card">-->
+            <!--        <div class="contact-icon">-->
+            <!--            <i class="fal fa-headset text-theme"></i>-->
+            <!--        </div>-->
+            <!--        <h6>Office Schedule</h6>-->
+            <!--        <p>Monday to Saturday<br>16:00 – 19:00</p>-->
+            <!--    </div>-->
+            <!--</div>-->
+            <!-- Email -->
             <div class="col-md-4">
                 <div class="contact-card">
                     <div class="contact-icon">
-                        <i class="fal fa-headset text-theme"></i>
+                        <i class="fal fa-headset  text-theme"></i>
                     </div>
-                    <h6>Office Schedule</h6>
-                    <p>Monday to Saturday<br>16:00 – 19:00</p>
+                    <h6>Quick Contact</h6>
+                    <p>bridesbysaniamalik@gmail.com</p>
                 </div>
             </div>
             <!-- Email -->
@@ -85,8 +95,8 @@
                     <div class="contact-icon">
                         <i class="fal fa-headset  text-theme"></i>
                     </div>
-                    <h6>Quick Contact</h6>
-                    <p>info@example.com</p>
+                    <h6>Contact Us</h6>
+                    <p>+91 979 338 8803</p>
                 </div>
             </div>
         </div>

@@ -18,7 +18,7 @@
     --main-container: 1270px;
     --container-gutters: 30px;
     --section-space: 70px;
-    --section-space-mobile: 80px;
+    --section-space-mobile: 50px;
     --section-title-space: 60px;
     --ripple-ani-duration: 5s
 }
@@ -4448,11 +4448,14 @@ a.text-theme:hover,
 }
 
 @media(min-width: 1399px) {
-    .header-layout2 .menu-area .menu-inner {
-        position: absolute;
-        left: 0;
+       .header-layout2 .menu-area .menu-inner {
+        position: fixed;
+        top: 0;
         right: 0;
-        top: 0
+        left: 0;
+        background-color: var(--white-color);
+        transition: all ease .8s;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, .07);
     }
 }
 
@@ -4708,8 +4711,8 @@ a.text-theme:hover,
 }
 
 .footer-layout3 .widget-area {
-    padding-top: 80px;
-    padding-bottom: 35px
+    padding-top: 45px;
+    padding-bottom: 0px;
 }
 
 .footer-layout3 .copyright-wrap {
@@ -5007,7 +5010,11 @@ a.text-theme:hover,
     background-position: top center;
     margin-top: 75px;
 }
-
+@media (max-width: 767px) {
+    .breadcumb-wrapper {
+        margin-top: 0;
+    }
+}
 @media(min-width: 1922px) {
     .breadcumb-wrapper {
         background-size: cover;
@@ -7661,7 +7668,7 @@ blockquote.vs-quote cite:before {
 
 .media-style3 .media-title {
     color: #313c45;
-    font-size: 100px;
+    font-size: 60px;
     text-transform: uppercase;
     font-family: var(--title-font);
     line-height: 1;
@@ -13467,11 +13474,12 @@ blockquote.vs-quote cite:before {
     height: 100%
 }
 
-.gallery-box {
+.gallery-box {     
     position: relative;
     --shape-space: 45px;
     --btn-size: 50px;
-    overflow: hidden
+    overflow: hidden;
+   max-height: 400px;
 }
 
 .gallery-box.box-rounded {
@@ -13479,8 +13487,19 @@ blockquote.vs-quote cite:before {
 }
 
 .gallery-box img {
+    height: 400px;
     border-radius: inherit;
     transition: all ease .4s
+}
+@media (max-width: 767px) {
+    .gallery-box img {
+        height: 250px;
+    }
+}
+@media (max-width: 575px) {
+    .gallery-box img {
+        height: 250px;
+    }
 }
 
 .gallery-box .gal-btn {

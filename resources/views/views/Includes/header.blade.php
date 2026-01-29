@@ -3,16 +3,15 @@
             <div class="widget">
                 <div class="footer-logo"><img src="assets/img/logo_white.png" alt="logo"></div>
                 <div class="info-media1">
-                    <div class="media-icon"><i class="fal fa-map-marker-alt"></i></div><span class="media-label">Centerl
-                        Park West La, New York</span>
+                    <div class="media-icon"><i class="fal fa-map-marker-alt"></i></div><span class="media-label">R Square Building, Opp. SRS City Mall, Vipul Khand 5, Gomti Nagar, Lucknow</span>
                 </div>
                 <div class="info-media1">
                     <div class="media-icon"><i class="far fa-phone-alt"></i></div><span class="media-label"><a
-                            href="tel:+01234567890" class="text-inherit">+0 123 456 7890</a></span>
+                            href="tel:+01234567890" class="text-inherit">+91 979 338 8803</a></span>
                 </div>
                 <div class="info-media1">
                     <div class="media-icon"><i class="fal fa-envelope"></i></div><span class="media-label"><a
-                            class="text-inherit" href="mailto:info@example.com">info@example.com</a></span>
+                            class="text-inherit" href="mailto:bridesbysaniamalik@gmail.com">bridesbysaniamalik@gmail.com</a></span>
                 </div>
             </div>
             <div class="widget">
@@ -20,7 +19,7 @@
                 <div class="recent-post-wrap">
                     <div class="recent-post">
                         <div class="media-img"><a href="blog-details.html"><img
-                                    src="assets/img/widget/recent-post-1-1.jpg" alt="Blog Image"></a></div>
+                                    src="{{asset('assets/img/widget/recent-post-1-1.jpg')}}" alt="Blog Image"></a></div>
                         <div class="media-body">
                             <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Skinscent Experience
                                     Oskarsson</a></h4>
@@ -30,7 +29,7 @@
                     </div>
                     <div class="recent-post">
                         <div class="media-img"><a href="blog-details.html"><img
-                                    src="assets/img/widget/recent-post-1-2.jpg" alt="Blog Image"></a></div>
+                                    src="{{asset('assets/img/widget/recent-post-1-1.jpg')}}" alt="Blog Image"></a></div>
                         <div class="media-body">
                             <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Lorem ipsum is
                                     placeholder recent popular</a></h4>
@@ -40,7 +39,7 @@
                     </div>
                     <div class="recent-post">
                         <div class="media-img"><a href="blog-details.html"><img
-                                    src="assets/img/widget/recent-post-1-3.jpg" alt="Blog Image"></a></div>
+                                    src="{{asset('assets/img/widget/recent-post-1-1.jpg')}}" alt="Blog Image"></a></div>
                         <div class="media-body">
                             <h4 class="post-title"><a class="text-inherit" href="blog-details.html">From its medieval
                                     origins health custom</a></h4>
@@ -50,7 +49,7 @@
                     </div>
                     <div class="recent-post">
                         <div class="media-img"><a href="blog-details.html"><img
-                                    src="assets/img/widget/recent-post-1-4.jpg" alt="Blog Image"></a></div>
+                                    src="{{asset('assets/img/widget/recent-post-1-1.jpg')}}" alt="Blog Image"></a></div>
                         <div class="media-body">
                             <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Letraset's
                                     dry-transfer sheets later</a></h4>
@@ -88,35 +87,39 @@
                         <div class="container">
                             <div class="row justify-content-between align-items-center gx-60">
                                 <div class="col">
-                                    <div class="header-logo"><a href="/"><img src="assets/img/logo_white.png"
+                                    <div class="header-logo"><a href="{{url('/')}}"><img src="assets/img/logo_white.png"
                                                 alt="logo"></a></div>
                                 </div>
                                 <div class="col-auto">
                                     <nav class="main-menu menu-style1 d-none d-lg-block">
                                         <ul>
-                                            <li><a href="/about">About Us</a></li>
+                                            <li><a href="{{url('/')}}">Home</a></li>
+                                            <li><a href="{{url('/about')}}">About Us</a></li>
                                             <li class="menu-item-has-children"><a href="">Service</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="/makeup-service">Makeup Services</a></li>
-                                                    <li><a href="/salon-service">Salon Service</a></li>
-                                                    <li><a href="/man-service">Man Service</a></li>
+                                                    <li><a href="{{url('/makeup-service')}}">Makeup Services</a></li>
+                                                    <li><a href="{{url('/salon-service')}}">Salon Service</a></li>
+                                                    <li><a href="{{url('/hair-service')}}">Hair Service</a></li>
+                                                    <li><a href="{{url('/nail-service')}}">Nail Service</a></li>
+                                                    <li><a href="{{url('/eye-lash-extension')}}">Eye Lash Extension Service</a></li>
+                                                    <li><a href="{{url('/groom-service')}}">Groom Service</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="/academy">Academy</a></li>
-                                            <li><a href="/portfolio">Portfolio</a></li>
-                                            <li><a href="/contact">Contact Us</a></li>
+                                            <li><a href="{{url('/academy')}}">Academy</a></li>
+                                            <li><a href="{{url('/portfolio')}}">Portfolio</a></li>
+                                            <li><a href="{{url('/contact')}}">Contact Us</a></li>
                                         </ul>
                                     </nav>
                                 </div>
                                 <div class="col-auto">
-                                    <div class="header-icons"><button class="searchBoxTggler"><i
-                                                class="far fa-search"></i></button> <a href="/contact"
+                                    <div class="header-icons"><a href="{{url('/contact')}}"
                                             class="vs-btn style8 d-none d-xl-inline-block">Book</a> <button
                                             class="bar-btn sideMenuToggler d-none d-xl-inline-block"><span
                                                 class="bar"></span> <span class="bar"></span> <span
                                                 class="bar"></span></button> <button
                                             class="vs-menu-toggle d-inline-block d-lg-none" type="button"><i
-                                                class="fal fa-bars"></i></button></div>
+                                                class="fal fa-bars"></i></button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -125,3 +128,39 @@
             </div>
         </div>
     </header>
+
+    <!-- Mobile Menu Wrapper (RIGHT SIDE) -->
+    <div class="vs-menu-wrapper">
+        <div class="vs-menu-area">
+            <button class="vs-menu-toggle">
+                <i class="fal fa-times"></i>
+            </button>
+
+            <div class="vs-mobile-menu">
+                <div class="mobile-logo">
+                    <a href="{{url('/')}}"><img src="assets/img/logo_white.png"
+                            alt="logo"></a>
+                </div>
+                <ul>
+                    <li><a href="{{url('/')}}">Home</a></li>
+                    <li><a href="{{url('/about')}}">About Us</a></li>
+
+                    <li class="menu-item-has-children">
+                        <a href="#">Service</a>
+                        <ul>
+                            <li><a href="{{url('/makeup-service')}}">Makeup Services</a></li>
+                            <li><a href="{{url('/salon-service')}}">Salon Service</a></li>
+                            <li><a href="{{url('/hair-service')}}">Hair Service</a></li>
+                            <li><a href="{{url('/nail-service')}}">Nail Service</a></li>
+                            <li><a href="{{url('/eye-lash-extension')}}">Eye Lash Extension</a></li>
+                            <li><a href="{{url('/groom-service')}}">Groom Service</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="{{url('/academy')}}">Academy</a></li>
+                    <li><a href="{{url('/portfolio')}}">Portfolio</a></li>
+                    <li><a href="{{url('/contact')}}">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>

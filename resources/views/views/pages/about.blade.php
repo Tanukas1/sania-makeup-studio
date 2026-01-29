@@ -13,7 +13,7 @@
     /* Hero Stats Section */
     .hero-stats {
         background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
-        padding: 80px 0;
+        padding: 35px 0;
         position: relative;
         overflow: hidden;
     }
@@ -51,7 +51,7 @@
     .stat-item {
         text-align: center;
         color: white;
-        padding: 30px;
+        padding: 15px;
         background: rgba(255, 255, 255, 0.1);
         border-radius: 15px;
         backdrop-filter: blur(10px);
@@ -85,7 +85,6 @@
 
     /* About Story Section */
     .about-story {
-        padding: 100px 0;
         background: white;
     }
 
@@ -187,7 +186,6 @@
 
     /* Mission Vision Section */
     .mission-vision {
-        padding: 100px 0;
         background: var(--light-bg);
     }
 
@@ -273,7 +271,6 @@
 
     /* Why Choose Us Section */
     .why-choose {
-        padding: 100px 0;
         background: white;
     }
 
@@ -324,78 +321,9 @@
         line-height: 1.6;
         color: #64748b;
         margin: 0;
-    }
-
-    /* Team Section */
-    .team-section {
-        padding: 100px 0;
-        background: var(--light-bg);
-    }
-
-    .team-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        gap: 40px;
-        margin-top: 60px;
-    }
-
-    .team-member {
-        background: white;
-        border-radius: 20px;
-        overflow: hidden;
-        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
-        transition: all 0.3s ease;
-    }
-
-    .team-member:hover {
-        transform: translateY(-10px);
-        box-shadow: 0 20px 60px rgba(154, 86, 58, 0.15);
-    }
-
-    .team-image {
-        width: 100%;
-        height: 350px;
-        background: linear-gradient(135deg, var(--primary-light), var(--primary-color));
-        position: relative;
-        overflow: hidden;
-    }
-
-    .team-image img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    .team-info {
-        padding: 30px;
-        text-align: center;
-    }
-
-    .team-info h4 {
-        font-size: 22px;
-        font-weight: 700;
-        color: var(--dark-color);
-        margin-bottom: 8px;
-    }
-
-    .team-info .position {
-        font-size: 14px;
-        color: var(--primary-color);
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        margin-bottom: 15px;
-    }
-
-    .team-info p {
-        font-size: 14px;
-        color: #64748b;
-        line-height: 1.6;
-    }
-
+    }   
     /* CTA Section */
     .cta-section {
-        padding: 100px 0;
         background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-color) 100%);
         position: relative;
         overflow: hidden;
@@ -475,7 +403,7 @@
         }
 
         .hero-stats {
-            padding: 60px 0;
+            padding: 30px 0;
         }
 
         .stat-number {
@@ -515,7 +443,7 @@
 </div>
 
 <!-- Hero Stats Section -->
-<section class="hero-stats">
+<section class="hero-stats space-top space-extra-bottom">
     <div class="container">
         <div class="stats-grid">
             <div class="stat-item">
@@ -543,7 +471,7 @@
 </section>
 
 <!-- About Story Section -->
-<section class="about-story">
+<section class="about-story space-top space-extra-bottom">
     <div class="container">
         <div class="section-title">
             <h2>Our <span class="inner-text">Story</span></h2>
@@ -571,7 +499,7 @@
 </section>
 
 <!-- Mission Vision Section -->
-<section class="mission-vision">
+<section class="mission-vision space-top space-extra-bottom">
     <div class="container">
         <div class="section-title">
             <h2>Our Mission & <span class="inner-text">Vision</span></h2>
@@ -607,7 +535,7 @@
 </section>
 
 <!-- Why Choose Us Section -->
-<section class="why-choose">
+<section class="why-choose space-top space-extra-bottom">
     <div class="container">
         <div class="section-title">
             <h2>Why Choose <span class="inner-text">Us</span></h2>
@@ -654,55 +582,8 @@
     </div>
 </section>
 
-<!-- Team Section -->
-<section class="team-section">
-    <div class="container">
-        <div class="section-title">
-            <h2>Meet Our <span class="inner-text">Team</span></h2>
-            <p>The talented artists behind your beautiful transformations</p>
-        </div>
-
-        <div class="team-grid">
-            <div class="team-member">
-                <div class="team-image">
-                    <img src="assets/img/team/team-1-1.png" alt="Sania Malik">
-                </div>
-                <div class="team-info">
-                    <h4>Sania Malik</h4>
-                    <p class="position">Lead Makeup Artist</p>
-                    <p>With over 15 years of experience, Sania specializes in bridal and HD makeup, bringing dreams to life.</p>
-                </div>
-            </div>
-
-            <div class="team-member">
-                <div class="team-image">
-                    <img src="assets/img/team/team-1-2.png" alt="Senior Artist">
-                </div>
-                <div class="team-info">
-                    <h4>Priya Sharma</h4>
-                    <p class="position">Senior Makeup Artist</p>
-                    <p>Specialized in contemporary and traditional looks with 10+ years of industry experience.</p>
-                </div>
-            </div>
-
-            <div class="team-member">
-                <div class="team-image">
-                    <img src="assets/img/team/team-1-3.png" alt="Hair Stylist">
-                </div>
-                <div class="team-info">
-                    <h4>Neha Verma</h4>
-                    <p class="position">Hair Styling Expert</p>
-                    <p>Expert in bridal hairstyling, updos, and contemporary hair trends for all occasions.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
 <!-- CTA Section -->
-<section class="cta-section">
+<section class="cta-section space-top space-extra-bottom">
     <div class="container">
         <div class="cta-content">
             <h2>Ready to Transform Your Look?</h2>

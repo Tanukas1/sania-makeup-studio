@@ -14,4 +14,7 @@ Route::view('/portfolio', 'pages.portfolio');
 Route::view('/contact', 'pages.contact');
 Route::view('/makeup-service', 'pages.makeup-service');
 Route::view('/salon-service', 'pages.salon-service');
-Route::view('/man-service', 'pages.man-service');
+Route::view('/groom-service', 'pages.man-service');
+Route::view('/hair-service', 'pages.hair-service');
+Route::view('/nail-service', 'pages.nail-service');
+Route::view('/eye-lash-extension', 'pages.eye-lash-extension');
